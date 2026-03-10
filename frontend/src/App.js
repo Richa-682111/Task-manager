@@ -7,7 +7,7 @@ function App() {
 const [task, setTask] = useState("");
 const [tasks, setTasks] = useState([]);
 
-const API = "http://localhost:5000";
+const API = "https://task-manager-backend-bep0.onrender.com";
 
 useEffect(() => {
   axios.get(API + "/tasks")
