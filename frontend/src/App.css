@@ -8,7 +8,8 @@ body{
   display:flex;
   justify-content:center;
   align-items:center;
-  background: linear-gradient(135deg,#667eea,#764ba2);
+  /* background: linear-gradient(135deg,#667eea,#764ba2); */
+  background: linear-gradient(135deg,#ff4da6,#ff0080);
 }
 
 .card{
